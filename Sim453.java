@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 public class Sim453 extends JPanel {
 
     private boolean[][] grid;
-    private final int cellSize = 5;
+    private final int cellSize = 10;
 
     public Sim453(int width, int height, String config ) {
         grid = new boolean[height][width];
